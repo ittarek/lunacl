@@ -1,0 +1,30 @@
+.gallery {
+     box-shadow: rgba(0, 0, 0, 0.502) 5px 5px 0px 0px;
+}
+
+.addBtn {
+
+     box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 1px 1px,
+
+          #5B6066 -1px -1px 5px 1px;
+}
+
+#galleryDiv button:nth-child(2),
+#galleryDiv button:nth-child(3) {
+
+     box-shadow: #3B4650 5px 5px 15px 5px;
+}
+
+.imageDiv img {
+     width: 250px;
+     height: 300px;
+}
+
+@media screen and (max-width:600px) {
+     .imageDiv img {
+          width: 100%;
+          margin: auto;
+          height: auto;
+ 
+     }
+}
