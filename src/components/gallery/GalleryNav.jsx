@@ -16,12 +16,12 @@ const GalleryNav = ({ handleImage }) => {
    
         <button
           className="addBtn bg-[#40464D] lg:px-[20px] lg:py-[10px] px-[5px] py-[3px] text-[#FAFAFA] font-bold rounded-[25px]"
-          onClick={() => document.getElementById("fileInput").click()} // Trigger file input click
+          onClick={() => document.getElementById("fileInput").click()} 
         >
           + Add Image
         </button>
 
-        {/* Hidden file input */}
+
         <input
           type="file"
           accept="image/*"
